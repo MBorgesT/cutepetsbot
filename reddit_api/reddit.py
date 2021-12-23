@@ -1,8 +1,8 @@
 from re import sub
 from praw import Reddit
-from PIL import Image
 import urllib.request
 import random
+import os
 
 
 class Post:
@@ -83,6 +83,8 @@ def get_content_type(url):
     
 
 if __name__ == '__main__':
+    os.chdir("~/cutepetsbot/")
+
     post = get_post()
     if post is None:
         raise Exception('No post found')

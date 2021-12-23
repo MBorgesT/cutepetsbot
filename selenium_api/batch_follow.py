@@ -125,6 +125,8 @@ def unfollow_and_save_new(timestamp, new_profiles):
 
 
 if __name__ == '__main__':
+    os.chdir("~/cutepetsbot/")
+
     timestamp = get_timestamp_str()
 
     new_profiles = None
