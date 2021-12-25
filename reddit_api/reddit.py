@@ -1,8 +1,7 @@
-from re import sub
 from praw import Reddit
 import urllib.request
 import random
-import os
+from paths_api.paths import paths
 
 
 class Post:
@@ -41,19 +40,19 @@ def get_praw():
 
 
 def get_subreddits():
-    with open('reddit_api/subreddits.txt', 'r') as f:
+    with open(paths['scripts'] + 'reddit_api/subreddits.txt', 'r') as f:
         subreddits = [x.replace('\n', '') for x in f.readlines()]
     random.shuffle(subreddits)
     return subreddits
 
 
 def get_creds():
-    with open('reddit_api/creds.txt', 'r') as f:
+    with open(paths['scripts'] + 'reddit_api/creds.txt', 'r') as f:
         return [x.replace('\n', '') for x in f.readlines()]
 
 
 def get_posted_ids():
-    with open('reddit_api/posted_ids.txt', 'r') as f:
+    with open(paths['scripts'] + 'reddit_api/posted_ids.txt', 'r') as f:
         return [x.replace('\n', '') for x in f.readlines()]
 
 
@@ -62,7 +61,7 @@ def save_posted_ids(posted_ids, new_id):
         del posted_ids[:-1]
     posted_ids.insert(0, new_id)
 
-    with open('reddit_api/posted_ids.txt', 'w') as f:
+    with open(paths['scripts'] + 'reddit_api/posted_ids.txt', 'w') as f:
         f.write('\n'.join(posted_ids))
 
 
@@ -83,8 +82,6 @@ def get_content_type(url):
     
 
 if __name__ == '__main__':
-    os.chdir("~/cutepetsbot/")
-
     post = get_post()
     if post is None:
         raise Exception('No post found')

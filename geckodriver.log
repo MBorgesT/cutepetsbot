@@ -1,0 +1,439 @@
+1640403484670	geckodriver	INFO	Listening on 127.0.0.1:37075
+1640403484673	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--start-maximized" "--user-data-dir=selenium_api/selenium_stuff/config/" "--remote-debugging-port" "41775" "-no-remote" "-profile" "/tmp/rust_mozprofilenSVF2j"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1640403486396	Marionette	INFO	Marionette enabled
+console.info: MINT: Trying to use the system region (based on LANG).
+console.info: MINT: System region is US
+console.info: MINT: Trying to use the system region (based on LANG).
+console.info: MINT: System region is US
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilenSVF2j/search.json.mozlz4", (void 0)))
+console.info: MINT: Loading search-config defaults.
+JavaScript error: resource://gre/modules/TelemetryUtils.jsm, line 154: TypeError: date is undefined
+JavaScript error: resource:///modules/BrowserGlue.jsm, line 4097: TypeError: invalid assignment to const 'dialogReason'
+DevTools listening on ws://localhost:41775/devtools/browser/e36b30b5-d387-4264-8abc-c1f24393e5db
+1640403487704	Marionette	INFO	Listening on port 37755
+1640403487802	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+1640403512079	Marionette	INFO	Stopped listening on port 37755
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1640403514090	geckodriver	INFO	Listening on 127.0.0.1:46673
+1640403514093	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--start-maximized" "--user-data-dir=selenium_api/selenium_stuff/config/" "--remote-debugging-port" "40993" "-no-remote" "-profile" "/tmp/rust_mozprofileJ9BhfX"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1640403515794	Marionette	INFO	Marionette enabled
+console.info: MINT: Trying to use the system region (based on LANG).
+console.info: MINT: System region is US
+console.info: MINT: Trying to use the system region (based on LANG).
+console.info: MINT: System region is US
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileJ9BhfX/search.json.mozlz4", (void 0)))
+console.info: MINT: Loading search-config defaults.
+JavaScript error: resource://gre/modules/TelemetryUtils.jsm, line 154: TypeError: date is undefined
+JavaScript error: resource:///modules/BrowserGlue.jsm, line 4097: TypeError: invalid assignment to const 'dialogReason'
+DevTools listening on ws://localhost:40993/devtools/browser/5599b112-3c78-4282-97f2-5fc1074f7e2b
+1640403516956	Marionette	INFO	Listening on port 39365
+1640403517089	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1640403524350	Marionette	INFO	Stopped listening on port 39365
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+JavaScript error: chrome://remote/content/marionette/cert.js, line 55: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x5B000B,name=PHttpChannel::Msg___delete__) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x6C0025,name=PNecko::Msg_RemoveRequestContext) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1640403524936	geckodriver::marionette	ERROR	Failed to close browser connection: Socket not connected (os error 107)
+1640403694849	geckodriver	INFO	Listening on 127.0.0.1:49769
+1640403694857	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--start-maximized" "--user-data-dir=selenium_api/selenium_stuff/config/" "--remote-debugging-port" "54061" "-no-remote" "-profile" "/tmp/rust_mozprofileqKLyZ9"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1640403696532	Marionette	INFO	Marionette enabled
+console.info: MINT: Trying to use the system region (based on LANG).
+console.info: MINT: System region is US
+console.info: MINT: Trying to use the system region (based on LANG).
+console.info: MINT: System region is US
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileqKLyZ9/search.json.mozlz4", (void 0)))
+console.info: MINT: Loading search-config defaults.
+JavaScript error: resource://gre/modules/TelemetryUtils.jsm, line 154: TypeError: date is undefined
+JavaScript error: resource:///modules/BrowserGlue.jsm, line 4097: TypeError: invalid assignment to const 'dialogReason'
+DevTools listening on ws://localhost:54061/devtools/browser/cb6b46ac-a3b6-4fc4-912c-5be35e4c86c4
+1640403698123	Marionette	INFO	Listening on port 39039
+1640403698177	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+1640403718202	Marionette	INFO	Stopped listening on port 39039
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1640403721154	geckodriver	INFO	Listening on 127.0.0.1:37343
+1640403721157	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--start-maximized" "--user-data-dir=selenium_api/selenium_stuff/config/" "--remote-debugging-port" "53511" "-no-remote" "-profile" "/tmp/rust_mozprofileCS4bfe"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1640403722831	Marionette	INFO	Marionette enabled
+console.info: MINT: Trying to use the system region (based on LANG).
+console.info: MINT: System region is US
+console.info: MINT: Trying to use the system region (based on LANG).
+console.info: MINT: System region is US
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileCS4bfe/search.json.mozlz4", (void 0)))
+console.info: MINT: Loading search-config defaults.
+JavaScript error: resource://gre/modules/TelemetryUtils.jsm, line 154: TypeError: date is undefined
+JavaScript error: resource:///modules/BrowserGlue.jsm, line 4097: TypeError: invalid assignment to const 'dialogReason'
+DevTools listening on ws://localhost:53511/devtools/browser/d5d0932e-f8f7-466d-91bb-44ac9beb47c0
+1640403724074	Marionette	INFO	Listening on port 45135
+1640403724214	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1640403731041	Marionette	INFO	Stopped listening on port 45135
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+JavaScript error: chrome://remote/content/marionette/cert.js, line 55: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1640403732139	geckodriver::marionette	ERROR	Failed to close browser connection: Socket not connected (os error 107)
+1640403763461	geckodriver	INFO	Listening on 127.0.0.1:51693
+1640403763469	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--start-maximized" "--user-data-dir=~/.mozilla/firefox/t3xh3zad.petsbot/" "--remote-debugging-port" "45013" "-no-remote" "-profile" "/tmp/rust_mozprofilea1DYkK"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1640403765207	Marionette	INFO	Marionette enabled
+console.info: MINT: Trying to use the system region (based on LANG).
+console.info: MINT: System region is US
+console.info: MINT: Trying to use the system region (based on LANG).
+console.info: MINT: System region is US
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilea1DYkK/search.json.mozlz4", (void 0)))
+console.info: MINT: Loading search-config defaults.
+JavaScript error: resource://gre/modules/TelemetryUtils.jsm, line 154: TypeError: date is undefined
+JavaScript error: resource:///modules/BrowserGlue.jsm, line 4097: TypeError: invalid assignment to const 'dialogReason'
+DevTools listening on ws://localhost:45013/devtools/browser/35f531b0-80f2-4e74-95dc-a7651e0fa2db
+1640403766509	Marionette	INFO	Listening on port 45073
+1640403766589	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+1640403795826	Marionette	INFO	Stopped listening on port 45073
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1640403797495	geckodriver	INFO	Listening on 127.0.0.1:55455
+1640403797498	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--start-maximized" "--user-data-dir=~/.mozilla/firefox/t3xh3zad.petsbot/" "--remote-debugging-port" "44187" "-no-remote" "-profile" "/tmp/rust_mozprofilel6ndyA"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1640403799174	Marionette	INFO	Marionette enabled
+console.info: MINT: Trying to use the system region (based on LANG).
+console.info: MINT: System region is US
+console.info: MINT: Trying to use the system region (based on LANG).
+console.info: MINT: System region is US
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilel6ndyA/search.json.mozlz4", (void 0)))
+console.info: MINT: Loading search-config defaults.
+JavaScript error: resource://gre/modules/TelemetryUtils.jsm, line 154: TypeError: date is undefined
+JavaScript error: resource:///modules/BrowserGlue.jsm, line 4097: TypeError: invalid assignment to const 'dialogReason'
+DevTools listening on ws://localhost:44187/devtools/browser/0a7440c3-8ad3-49cd-85fa-9e14f9e9ec97
+1640403800393	Marionette	INFO	Listening on port 41309
+1640403800427	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1640403935526	geckodriver	INFO	Listening on 127.0.0.1:50459
+1640403935529	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--start-maximized" "-profile" "--user-data-dir=~/.mozilla/firefox/t3xh3zad.petsbot/" "--remote-debugging-port" "38295" "-no-remote"
+Error: argument --profile requires a path
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1640403945383	geckodriver	INFO	Listening on 127.0.0.1:53609
+1640403945386	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--start-maximized" "--profile" "--user-data-dir=~/.mozilla/firefox/t3xh3zad.petsbot/" "--remote-debugging-port" "60075" "-no-remote"
+Error: argument --profile requires a path
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1640403952290	geckodriver	INFO	Listening on 127.0.0.1:50497
+1640403952293	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--start-maximized" "-profile" "--user-data-dir=~/.mozilla/firefox/t3xh3zad.petsbot/" "--remote-debugging-port" "35197" "-no-remote"
+Error: argument --profile requires a path
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1640404039899	geckodriver	INFO	Listening on 127.0.0.1:59825
+1640404039908	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--start-maximized" "--remote-debugging-port" "38619" "-no-remote" "-profile" "/tmp/rust_mozprofile9IWFMR"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1640404041483	Marionette	INFO	Marionette enabled
+console.info: MINT: Trying to use the system region (based on LANG).
+console.info: MINT: System region is US
+console.info: MINT: Trying to use the system region (based on LANG).
+console.info: MINT: System region is US
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile9IWFMR/search.json.mozlz4", (void 0)))
+console.info: MINT: Loading search-config defaults.
+JavaScript error: resource:///modules/BrowserGlue.jsm, line 4097: TypeError: invalid assignment to const 'dialogReason'
+DevTools listening on ws://localhost:38619/devtools/browser/0ff7110f-38ab-4d5e-a9c3-1c51572d1a0a
+1640404042705	Marionette	INFO	Listening on port 37807
+1640404043042	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+console.info: MINT: main/search-config update being skipped
+1640404080356	Marionette	INFO	Stopped listening on port 37807
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1640404082310	geckodriver	INFO	Listening on 127.0.0.1:40215
+1640404082320	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--start-maximized" "--remote-debugging-port" "38323" "-no-remote" "-profile" "/tmp/rust_mozprofileaFFXuW"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1640404083913	Marionette	INFO	Marionette enabled
+console.info: MINT: Trying to use the system region (based on LANG).
+console.info: MINT: System region is US
+console.info: MINT: Trying to use the system region (based on LANG).
+console.info: MINT: System region is US
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileaFFXuW/search.json.mozlz4", (void 0)))
+console.info: MINT: Loading search-config defaults.
+JavaScript error: resource:///modules/BrowserGlue.jsm, line 4097: TypeError: invalid assignment to const 'dialogReason'
+DevTools listening on ws://localhost:38323/devtools/browser/2b75d546-e0d7-49f8-98f8-f180ceff4e5b
+1640404085082	Marionette	INFO	Listening on port 38119
+1640404085141	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1640404097239	Marionette	INFO	Stopped listening on port 38119
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1640404114121	geckodriver	INFO	Listening on 127.0.0.1:50405
+1640404114130	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--start-maximized" "--remote-debugging-port" "47207" "-no-remote" "-profile" "/tmp/rust_mozprofile79uoGS"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1640404115672	Marionette	INFO	Marionette enabled
+console.info: MINT: Trying to use the system region (based on LANG).
+console.info: MINT: System region is US
+console.info: MINT: Trying to use the system region (based on LANG).
+console.info: MINT: System region is US
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile79uoGS/search.json.mozlz4", (void 0)))
+console.info: MINT: Loading search-config defaults.
+JavaScript error: resource:///modules/BrowserGlue.jsm, line 4097: TypeError: invalid assignment to const 'dialogReason'
+DevTools listening on ws://localhost:47207/devtools/browser/f43daf4c-1ccc-4bcc-b6ac-f5b92234ec7a
+1640404116952	Marionette	INFO	Listening on port 40617
+1640404117067	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1640404133205	Marionette	INFO	Stopped listening on port 41309
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1640404134257	Marionette	INFO	Stopped listening on port 40617
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1640404139272	geckodriver	INFO	Listening on 127.0.0.1:37271
+1640404139282	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--start-maximized" "--remote-debugging-port" "39109" "-no-remote" "-profile" "/tmp/rust_mozprofileHyUDAW"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1640404140823	Marionette	INFO	Marionette enabled
+console.info: MINT: Trying to use the system region (based on LANG).
+console.info: MINT: System region is US
+console.info: MINT: Trying to use the system region (based on LANG).
+console.info: MINT: System region is US
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileHyUDAW/search.json.mozlz4", (void 0)))
+console.info: MINT: Loading search-config defaults.
+JavaScript error: resource:///modules/BrowserGlue.jsm, line 4097: TypeError: invalid assignment to const 'dialogReason'
+DevTools listening on ws://localhost:39109/devtools/browser/b956806a-c31d-46d3-b43b-5524b3f07083
+1640404142105	Marionette	INFO	Listening on port 43829
+1640404142210	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+1640404168131	Marionette	INFO	Stopped listening on port 43829
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1640404170544	geckodriver	INFO	Listening on 127.0.0.1:42775
+1640404170554	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--start-maximized" "--remote-debugging-port" "44357" "-no-remote" "-profile" "/tmp/rust_mozprofile2ntArB"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1640404172159	Marionette	INFO	Marionette enabled
+console.info: MINT: Trying to use the system region (based on LANG).
+console.info: MINT: System region is US
+console.info: MINT: Trying to use the system region (based on LANG).
+console.info: MINT: System region is US
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile2ntArB/search.json.mozlz4", (void 0)))
+console.info: MINT: Loading search-config defaults.
+JavaScript error: resource:///modules/BrowserGlue.jsm, line 4097: TypeError: invalid assignment to const 'dialogReason'
+DevTools listening on ws://localhost:44357/devtools/browser/85dcb919-d3f3-4811-910e-9639d9663226
+1640404173540	Marionette	INFO	Listening on port 37243
+1640404173582	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1640404180722	Marionette	INFO	Stopped listening on port 37243
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+JavaScript error: chrome://remote/content/marionette/cert.js, line 55: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1640404181402	geckodriver::marionette	ERROR	Failed to close browser connection: Socket not connected (os error 107)
+1640404323411	geckodriver	INFO	Listening on 127.0.0.1:51487
+1640404323970	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--start-maximized" "--remote-debugging-port" "41393" "-no-remote" "-profile" "/tmp/rust_mozprofile8sIs8I"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1640404325428	Marionette	INFO	Marionette enabled
+console.info: MINT: Trying to use the system region (based on LANG).
+console.info: MINT: System region is US
+console.info: MINT: Trying to use the system region (based on LANG).
+console.info: MINT: System region is US
+console.info: MINT: Loading search-config defaults.
+JavaScript error: resource:///modules/BrowserGlue.jsm, line 4097: TypeError: invalid assignment to const 'dialogReason'
+DevTools listening on ws://localhost:41393/devtools/browser/82d610a2-54d5-4ff8-8bc2-8bb8d1e27c1e
+1640404326489	Marionette	INFO	Listening on port 38603
+1640404326591	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1640404350107	Marionette	INFO	Stopped listening on port 38603
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+Sandbox: Unexpected EOF, op 0 flags 00 path /proc/cpuinfo
+1640404355153	geckodriver	INFO	Listening on 127.0.0.1:40633
+1640404355719	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--start-maximized" "--remote-debugging-port" "54335" "-no-remote" "-profile" "/tmp/rust_mozprofile7E8xne"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1640404357173	Marionette	INFO	Marionette enabled
+console.info: MINT: Trying to use the system region (based on LANG).
+console.info: MINT: System region is US
+console.info: MINT: Trying to use the system region (based on LANG).
+console.info: MINT: System region is US
+console.info: MINT: Loading search-config defaults.
+JavaScript error: resource:///modules/BrowserGlue.jsm, line 4097: TypeError: invalid assignment to const 'dialogReason'
+DevTools listening on ws://localhost:54335/devtools/browser/fafa8b08-8376-4f85-ab58-317be95b2ddd
+1640404358216	Marionette	INFO	Listening on port 43437
+1640404358248	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/PromiseWorker.jsm, line 106: Error: Could not get children of file(/tmp/rust_mozprofile7E8xne/thumbnails) because it does not exist
+1640404413416	Marionette	INFO	Stopped listening on port 43437
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1640404506587	geckodriver	INFO	Listening on 127.0.0.1:47815
+1640404507141	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--start-maximized" "--remote-debugging-port" "59509" "-no-remote" "-profile" "/tmp/rust_mozprofileNoI7WC"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1640404508615	Marionette	INFO	Marionette enabled
+console.info: MINT: Trying to use the system region (based on LANG).
+console.info: MINT: System region is US
+console.info: MINT: Trying to use the system region (based on LANG).
+console.info: MINT: System region is US
+console.info: MINT: Loading search-config defaults.
+JavaScript error: resource:///modules/BrowserGlue.jsm, line 4097: TypeError: invalid assignment to const 'dialogReason'
+DevTools listening on ws://localhost:59509/devtools/browser/ca7dd307-a6f3-4d87-a2ff-ad64cf0a5339
+1640404509573	Marionette	INFO	Listening on port 42917
+1640404509671	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/PromiseWorker.jsm, line 106: Error: Could not get children of file(/tmp/rust_mozprofileNoI7WC/thumbnails) because it does not exist
+1640404579115	Marionette	INFO	Stopped listening on port 42917
+[Parent 15408, IPC I/O Parent] WARNING: FileDescriptorSet destroyed with unconsumed descriptors: file /PROJECT/firefox-95.0+linuxmint1+uma/ipc/chromium/src/chrome/common/file_descriptor_set_posix.cc:19
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1640439930005	geckodriver	INFO	Listening on 127.0.0.1:53371
+1640439931056	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--start-maximized" "--remote-debugging-port" "50785" "-no-remote" "-profile" "/tmp/rust_mozprofileRDdMLO"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1640439931527	Marionette	INFO	Marionette enabled
+console.info: MINT: Trying to use the system region (based on LANG).
+console.info: MINT: System region is US
+console.info: MINT: Trying to use the system region (based on LANG).
+console.info: MINT: System region is US
+console.info: MINT: Loading search-config defaults.
+JavaScript error: resource:///modules/BrowserGlue.jsm, line 4097: TypeError: invalid assignment to const 'dialogReason'
+DevTools listening on ws://localhost:50785/devtools/browser/c407a5bd-f5f5-46de-8697-b087d6f357dc
+1640439932663	Marionette	INFO	Listening on port 43665
+1640439932777	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1640440005994	geckodriver	INFO	Listening on 127.0.0.1:60505
+1640440006544	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--start-maximized" "--width=900" "--height=600" "--remote-debugging-port" "60573" "-no-remote" "-profile" "/tmp/rust_mozprofilevRh81j"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1640440006988	Marionette	INFO	Marionette enabled
+console.info: MINT: Trying to use the system region (based on LANG).
+console.info: MINT: System region is US
+console.info: MINT: Trying to use the system region (based on LANG).
+console.info: MINT: System region is US
+console.info: MINT: Loading search-config defaults.
+JavaScript error: resource:///modules/BrowserGlue.jsm, line 4097: TypeError: invalid assignment to const 'dialogReason'
+DevTools listening on ws://localhost:60573/devtools/browser/03d346c2-8b4d-4e4a-a59a-083540c5a776
+1640440007929	Marionette	INFO	Listening on port 39205
+1640440007961	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1640440012264	Marionette	INFO	Stopped listening on port 39205
+JavaScript error: chrome://remote/content/marionette/cert.js, line 55: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+Sandbox: Unexpected EOF, op 0 flags 00 path /proc/cpuinfo
+1640440017298	geckodriver::marionette	ERROR	Failed to close browser connection: Socket not connected (os error 107)
+1640440023686	geckodriver	INFO	Listening on 127.0.0.1:57523
+1640440024241	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--width=1150" "--height=600" "--remote-debugging-port" "43797" "-no-remote" "-profile" "/tmp/rust_mozprofileQQXkoa"
+1640440028633	geckodriver	INFO	Listening on 127.0.0.1:40565
+1640440029206	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--width=1150" "--height=800" "--remote-debugging-port" "60699" "-no-remote" "-profile" "/tmp/rust_mozprofile2z9AO9"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1640440029652	Marionette	INFO	Marionette enabled
+console.info: MINT: Trying to use the system region (based on LANG).
+console.info: MINT: System region is US
+console.info: MINT: Trying to use the system region (based on LANG).
+console.info: MINT: System region is US
+console.info: MINT: Loading search-config defaults.
+JavaScript error: resource:///modules/BrowserGlue.jsm, line 4097: TypeError: invalid assignment to const 'dialogReason'
+DevTools listening on ws://localhost:60699/devtools/browser/8dfa031c-45fd-4cb4-818b-c174f286afec
+1640440030649	Marionette	INFO	Listening on port 34125
+1640440030728	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1640440040046	Marionette	INFO	Stopped listening on port 34125
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+JavaScript error: chrome://remote/content/marionette/cert.js, line 55: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+1640440042468	geckodriver::marionette	ERROR	Failed to close browser connection: Socket not connected (os error 107)
+1640440051332	geckodriver	INFO	Listening on 127.0.0.1:44435
+1640440051882	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--width=1400" "--height=1100" "--remote-debugging-port" "42011" "-no-remote" "-profile" "/tmp/rust_mozprofileONyQl1"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1640440052330	Marionette	INFO	Marionette enabled
+console.info: MINT: Trying to use the system region (based on LANG).
+console.info: MINT: System region is US
+console.info: MINT: Trying to use the system region (based on LANG).
+console.info: MINT: System region is US
+console.info: MINT: Loading search-config defaults.
+JavaScript error: resource:///modules/BrowserGlue.jsm, line 4097: TypeError: invalid assignment to const 'dialogReason'
+DevTools listening on ws://localhost:42011/devtools/browser/031460cb-a353-451b-834d-9e4264454950
+1640440053395	Marionette	INFO	Listening on port 43675
+1640440053503	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/PromiseWorker.jsm, line 106: Error: Could not get children of file(/tmp/rust_mozprofileONyQl1/thumbnails) because it does not exist
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.

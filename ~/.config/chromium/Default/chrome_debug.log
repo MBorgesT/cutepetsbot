@@ -1,8 +1,10 @@
-[25224:25224:1223/152218.816596:ERROR:sandbox_linux.cc(376)] InitializeSandbox() called with multiple threads in process gpu-process.
-[25183:25232:1223/152221.834053:ERROR:chrome_browser_main_extra_parts_metrics.cc(226)] crbug.com/1216328: Checking Bluetooth availability started. Please report if there is no report that this ends.
-[25183:25232:1223/152221.834082:ERROR:chrome_browser_main_extra_parts_metrics.cc(229)] crbug.com/1216328: Checking Bluetooth availability ended.
-[25183:25232:1223/152221.834090:ERROR:chrome_browser_main_extra_parts_metrics.cc(232)] crbug.com/1216328: Checking default browser status started. Please report if there is no report that this ends.
-[25183:25232:1223/152221.902043:ERROR:chrome_browser_main_extra_parts_metrics.cc(236)] crbug.com/1216328: Checking default browser status ended.
-[25183:25183:1223/152225.788743:INFO:CONSOLE(0)] "ResizeObserver loop limit exceeded", source: https://twitter.com/home (0)
-[25183:25183:1223/152231.719225:INFO:CONSOLE(0)] "ResizeObserver loop limit exceeded", source: https://twitter.com/search?q=dog%20OR%20dogs%20OR%20cat%20OR%20cats%20OR%20aww%20OR%20doggo%20OR%20pupper%20OR%20puppies%20OR%20animals&src=typed_query&f=live (0)
-[25183:25183:1223/152251.067578:WARNING:pref_notifier_impl.cc(40)] Pref observer for media_router.cast_allow_all_ips found at shutdown.
+[31297:31297:1223/162402.269184:ERROR:sandbox_linux.cc(376)] InitializeSandbox() called with multiple threads in process gpu-process.
+[31255:31283:1223/162405.286764:ERROR:chrome_browser_main_extra_parts_metrics.cc(226)] crbug.com/1216328: Checking Bluetooth availability started. Please report if there is no report that this ends.
+[31255:31283:1223/162405.286794:ERROR:chrome_browser_main_extra_parts_metrics.cc(229)] crbug.com/1216328: Checking Bluetooth availability ended.
+[31255:31283:1223/162405.286817:ERROR:chrome_browser_main_extra_parts_metrics.cc(232)] crbug.com/1216328: Checking default browser status started. Please report if there is no report that this ends.
+[31255:31283:1223/162405.394105:ERROR:chrome_browser_main_extra_parts_metrics.cc(236)] crbug.com/1216328: Checking default browser status ended.
+[31255:31255:1223/162414.689729:INFO:CONSOLE(0)] "ResizeObserver loop limit exceeded", source: https://twitter.com/search?q=dog%20OR%20dogs%20OR%20cat%20OR%20cats%20OR%20aww%20OR%20doggo%20OR%20pupper%20OR%20puppies%20OR%20animals&src=typed_query&f=live (0)
+[31255:31255:1223/162414.751933:INFO:CONSOLE(0)] "ResizeObserver loop limit exceeded", source: https://twitter.com/search?q=dog%20OR%20dogs%20OR%20cat%20OR%20cats%20OR%20aww%20OR%20doggo%20OR%20pupper%20OR%20puppies%20OR%20animals&src=typed_query&f=live (0)
+[31255:31255:1223/162414.937168:INFO:CONSOLE(0)] "ResizeObserver loop limit exceeded", source: https://twitter.com/search?q=dog%20OR%20dogs%20OR%20cat%20OR%20cats%20OR%20aww%20OR%20doggo%20OR%20pupper%20OR%20puppies%20OR%20animals&src=typed_query&f=live (0)
+[31255:31255:1223/162414.981626:INFO:CONSOLE(0)] "ResizeObserver loop limit exceeded", source: https://twitter.com/search?q=dog%20OR%20dogs%20OR%20cat%20OR%20cats%20OR%20aww%20OR%20doggo%20OR%20pupper%20OR%20puppies%20OR%20animals&src=typed_query&f=live (0)
+[31255:31255:1223/162434.240897:WARNING:pref_notifier_impl.cc(40)] Pref observer for media_router.cast_allow_all_ips found at shutdown.

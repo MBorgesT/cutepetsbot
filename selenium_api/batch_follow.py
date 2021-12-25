@@ -5,15 +5,22 @@ from bs4 import BeautifulSoup
 from time import sleep
 from datetime import datetime
 from twitter_api import twitter as tt
+from paths_api.paths import paths
 import random
 import os
 
 
 def get_driver():
-    options = webdriver.ChromeOptions()
-    options.add_argument(r'--user-data-dir=~/.config/chromium/Default')
-    options.add_argument('--start-maximized');
-    return webdriver.Chrome(executable_path='selenium_api/selenium_stuff/chromedriver', options=options)
+    options = webdriver.FirefoxOptions()
+    #options.add_argument('--start-maximized')
+    options.add_argument("--width=1400")
+    options.add_argument("--height=1100")
+    fp = webdriver.FirefoxProfile(paths['home'] + '.mozilla/firefox/t3xh3zad.petsbot')
+    return webdriver.Firefox(
+        firefox_profile=fp, 
+        executable_path=paths['scripts'] + 'selenium_api/selenium_stuff/geckodriver', 
+        options=options
+    )
 
 
 def get_timestamp_str():
@@ -21,12 +28,12 @@ def get_timestamp_str():
 
 
 def get_query():
-    with open('selenium_api/tweet_search_params.txt') as f:
+    with open(paths['scripts'] + 'selenium_api/tweet_search_params.txt') as f:
         return ' OR '.join([x.replace('\n', '') for x in f.readlines()])
 
 
 def default_sleep():
-    sleep(3.2)
+    sleep(5)
 
 
 def xpath_soup(element):
@@ -48,65 +55,71 @@ def xpath_soup(element):
 def run(n_follows):
     driver = get_driver()
 
-    default_sleep()
-    driver.get('https://www.twitter.com/')
-    default_sleep()
+    try:
+        default_sleep()
+        driver.get('https://www.twitter.com/')
+        default_sleep()
 
-    search_field = driver.find_element(By.XPATH, '//*[@id="react-root"]/div/div/div[2]/main/div/div/div/div[2]/div/div[2]/div/div/div/div[1]/div/div/div/form/div[1]/div/div/label/div[2]/div/input')
-    search_field.send_keys(get_query())
-    search_field.send_keys(Keys.ENTER)
-
-    default_sleep()
-
-    latest = driver.find_element(By.XPATH, '//*[@id="react-root"]/div/div/div[2]/main/div/div/div/div[1]/div/div[1]/div[2]/nav/div/div[2]/div/div[2]')
-    latest.click()
-
-    default_sleep()
-
-    bs = BeautifulSoup(driver.page_source, 'lxml')
-    
-    posts = bs.find('div', {'aria-label': 'Timeline: Search timeline'}).findChild('div').findChildren(recursive=False)
-    profile_urls = []
-    for p in posts:
-        try:
-            profile_urls.append(p.find('a', {'role': 'link'})['href'].replace('/', ''))
-        except:
-            pass
-
-    if len(profile_urls) > n_follows:
-        to_follow = profile_urls[:n_follows]
-    else:
-        to_follow = profile_urls
-
-    for url in to_follow:
-        print(f'url: {url}')
-        
-        driver.execute_script("window.open('');")
+        search_field = driver.find_element(By.XPATH, '//*[@id="react-root"]/div/div/div[2]/main/div/div/div/div[2]/div/div[2]/div/div/div/div[1]/div/div/div/form/div[1]/div/div/label/div[2]/div/input')
+        search_field.send_keys(get_query())
+        search_field.send_keys(Keys.ENTER)
 
         default_sleep()
 
-        driver.switch_to.window(driver.window_handles[1])
-        driver.get(f'https://www.twitter.com/{url}')
+        latest = driver.find_element(By.XPATH, '//*[@id="react-root"]/div/div/div[2]/main/div/div/div/div[1]/div/div[1]/div[2]/nav/div/div[2]/div/div[2]')
+        latest.click()
 
-        default_sleep()
         default_sleep()
 
         bs = BeautifulSoup(driver.page_source, 'lxml')
-        follow_btn = bs.find('span', text='Follow')
-        driver.find_element(By.XPATH, xpath_soup(follow_btn)).click()
         
-        default_sleep()
+        posts = bs.find('div', {'aria-label': 'Timeline: Search timeline'}).findChild('div').findChildren(recursive=False)
+        profile_urls = []
+        for p in posts:
+            try:
+                profile_urls.append(p.find('a', {'role': 'link'})['href'].replace('/', ''))
+            except:
+                pass
 
-        driver.close()
-        driver.switch_to.window(driver.window_handles[0])
+        if len(profile_urls) > n_follows:
+            to_follow = profile_urls[:n_follows]
+        else:
+            to_follow = profile_urls
 
-        default_sleep()
+        for url in to_follow:
+            print(f'url: {url}')
+            
+            driver.execute_script("window.open('');")
+
+            default_sleep()
+
+            driver.switch_to.window(driver.window_handles[1])
+            driver.get(f'https://www.twitter.com/{url}')
+
+            default_sleep()
+            default_sleep()
+
+            bs = BeautifulSoup(driver.page_source, 'lxml')
+            follow_btn = bs.find('span', text='Follow')
+            driver.find_element(By.XPATH, xpath_soup(follow_btn)).click()
+            
+            default_sleep()
+
+            driver.close()
+            driver.switch_to.window(driver.window_handles[0])
+
+            default_sleep()
+        
+        driver.quit()
+        return to_follow
     
-    return to_follow
+    except:
+        driver.quit()
+        return None
 
 
 def unfollow_and_save_new(timestamp, new_profiles):
-    file_path = f'selenium_api/follow_lists/{timestamp}.txt'
+    file_path = paths['scripts'] + f'selenium_api/follow_lists/{timestamp}.txt'
 
     if os.path.isfile(file_path):
         with open(file_path, 'r') as f:
@@ -125,8 +138,6 @@ def unfollow_and_save_new(timestamp, new_profiles):
 
 
 if __name__ == '__main__':
-    os.chdir("~/cutepetsbot/")
-
     timestamp = get_timestamp_str()
 
     new_profiles = None

@@ -1,2 +1,4 @@
+paths_api
 reddit_api
+selenium_api
 twitter_api

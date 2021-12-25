@@ -1,11 +1,8 @@
 from twitter_api import twitter as tt
 from reddit_api import reddit
-import os
 
 
 if __name__ == '__main__':
-    os.chdir("~/cutepetsbot/")
-    
     api = tt.get_api()
     post = reddit.get_post()
 

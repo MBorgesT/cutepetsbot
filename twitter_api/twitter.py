@@ -1,5 +1,6 @@
 import tweepy
 import os
+from paths_api.paths import paths
 
 
 def get_api():
@@ -12,7 +13,7 @@ def get_api():
 
 
 def get_creds():
-    with open('twitter_api/creds.txt', 'r') as f:
+    with open(paths['scripts'] + 'twitter_api/creds.txt', 'r') as f:
         return [x.replace('\n', '') for x in f.readlines()]
 
 

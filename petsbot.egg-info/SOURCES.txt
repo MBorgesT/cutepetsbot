@@ -1,11 +1,16 @@
 setup.py
+paths_api/__init__.py
+paths_api/paths.py
 petsbot.egg-info/PKG-INFO
 petsbot.egg-info/SOURCES.txt
 petsbot.egg-info/dependency_links.txt
 petsbot.egg-info/top_level.txt
 reddit_api/__init__.py
 reddit_api/reddit.py
+selenium_api/__init__.py
+selenium_api/batch_follow.py
 twitter_api/__init__.py
 twitter_api/delete_all_posts.py
 twitter_api/make_post.py
 twitter_api/twitter.py
+twitter_api/unfollow_all.py
