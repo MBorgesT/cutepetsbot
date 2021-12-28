@@ -1,4 +1,4 @@
-from twitter_api import twitter as tt
+from twitter_scripts import twitter as tt
 
 if __name__ == '__main__':
     api = tt.get_api()

@@ -6,8 +6,8 @@ from webdriver_manager.firefox import GeckoDriverManager
 from bs4 import BeautifulSoup
 from time import sleep
 from datetime import datetime
-from twitter_api import twitter as tt
-from paths_api.paths import paths
+from twitter_scripts import twitter as tt
+from utils_scripts.paths import paths
 import random
 import os
 

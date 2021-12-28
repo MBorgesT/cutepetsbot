@@ -1,5 +1,5 @@
-from twitter_api import twitter as tt
-from reddit_api import reddit
+from twitter_scripts import twitter as tt
+from reddit_scripts import reddit
 
 
 if __name__ == '__main__':

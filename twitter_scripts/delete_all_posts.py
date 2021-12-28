@@ -1,4 +1,4 @@
-from twitter_api import twitter as tt
+from twitter_scripts import twitter as tt
 import tweepy
 
 if __name__ == '__main__':

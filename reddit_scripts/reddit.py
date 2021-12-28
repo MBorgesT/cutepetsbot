@@ -1,7 +1,7 @@
 from praw import Reddit
 import urllib.request
 import random
-from paths_api.paths import paths
+from utils_scripts.paths import paths
 
 
 class Post:

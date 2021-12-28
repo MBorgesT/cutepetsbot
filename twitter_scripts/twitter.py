@@ -1,6 +1,6 @@
 import tweepy
 import os
-from paths_api.paths import paths
+from utils_scripts.paths import paths
 
 
 def get_api():
