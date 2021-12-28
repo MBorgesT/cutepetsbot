@@ -1,6 +1,8 @@
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.common.by import By
+from selenium.webdriver.chrome.service import Service
+from webdriver_manager.firefox import GeckoDriverManager
 from bs4 import BeautifulSoup
 from time import sleep
 from datetime import datetime
@@ -12,13 +14,14 @@ import os
 
 def get_driver():
     options = webdriver.FirefoxOptions()
-    #options.add_argument('--start-maximized')
-    options.add_argument("--width=1400")
-    options.add_argument("--height=1100")
+    options.add_argument('--width=1400')
+    options.add_argument('--height=1100')
+    options.add_argument('--headless')
     fp = webdriver.FirefoxProfile(paths['home'] + '.mozilla/firefox/t3xh3zad.petsbot')
+    s = Service(GeckoDriverManager().install())
     return webdriver.Firefox(
         firefox_profile=fp, 
-        executable_path=paths['scripts'] + 'selenium_api/selenium_stuff/geckodriver', 
+        service=s, 
         options=options
     )
 
@@ -141,9 +144,12 @@ if __name__ == '__main__':
     timestamp = get_timestamp_str()
 
     new_profiles = None
+    '''
     if (random.randint(0, 3) == 0):
         sleep(random.randint(0, 180))
         new_profiles = run(random.randint(1, 3))
+    '''
+    new_profiles = run(3)
     
     unfollow_and_save_new(timestamp, new_profiles)
     
