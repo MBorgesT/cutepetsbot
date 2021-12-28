@@ -40,19 +40,19 @@ def get_praw():
 
 
 def get_subreddits():
-    with open(paths['scripts'] + 'reddit_api/subreddits.txt', 'r') as f:
+    with open(paths['scripts'] + 'reddit_scripts/subreddits.txt', 'r') as f:
         subreddits = [x.replace('\n', '') for x in f.readlines()]
     random.shuffle(subreddits)
     return subreddits
 
 
 def get_creds():
-    with open(paths['scripts'] + 'reddit_api/creds.txt', 'r') as f:
+    with open(paths['scripts'] + 'reddit_scripts/creds.txt', 'r') as f:
         return [x.replace('\n', '') for x in f.readlines()]
 
 
 def get_posted_ids():
-    with open(paths['scripts'] + 'reddit_api/posted_ids.txt', 'r') as f:
+    with open(paths['scripts'] + 'reddit_scripts/posted_ids.txt', 'r') as f:
         return [x.replace('\n', '') for x in f.readlines()]
 
 
@@ -61,7 +61,7 @@ def save_posted_ids(posted_ids, new_id):
         del posted_ids[:-1]
     posted_ids.insert(0, new_id)
 
-    with open(paths['scripts'] + 'reddit_api/posted_ids.txt', 'w') as f:
+    with open(paths['scripts'] + 'reddit_scripts/posted_ids.txt', 'w') as f:
         f.write('\n'.join(posted_ids))
 
 

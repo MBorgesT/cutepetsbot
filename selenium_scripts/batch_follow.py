@@ -17,6 +17,7 @@ def get_driver():
     options.add_argument('--width=1400')
     options.add_argument('--height=1100')
     options.add_argument('--headless')
+    options.add_argument('--disable-logging') 
     fp = webdriver.FirefoxProfile(paths['home'] + '.mozilla/firefox/t3xh3zad.petsbot')
     s = Service(GeckoDriverManager().install())
     return webdriver.Firefox(

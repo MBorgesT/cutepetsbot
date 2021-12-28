@@ -1,3 +1,4 @@
-reddit_api/creds.txt
-twitter_api/creds.txt
-selenium_api/follow_lists/
+temp.*
+reddit_scripts/creds.txt
+twitter_scripts/creds.txt
+selenium_scripts/follow_lists/

@@ -13,7 +13,7 @@ def get_api():
 
 
 def get_creds():
-    with open(paths['scripts'] + 'twitter_api/creds.txt', 'r') as f:
+    with open(paths['scripts'] + 'twitter_scripts/creds.txt', 'r') as f:
         return [x.replace('\n', '') for x in f.readlines()]
 
 
